@@ -6,3 +6,15 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="0a2e5c6d5e824ba7bf48d9
                                                redirect_uri="https://localhost:8888/callback",
                                                scope="user-library-read"))
 
+
+
+horkyze_uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+
+results = sp.artist_albums(horkyze_uri, album_type="album")
+albums = results["items"]
+while results["next"]:
+    results = sp.next(results)
+    albums.extend(results["items"])
+
+for album in albums:
+    print(album["name"])
