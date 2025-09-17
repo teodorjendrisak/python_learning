@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Login exception handling
 
 Assignment description goes here.

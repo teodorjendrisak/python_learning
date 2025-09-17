@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Restrict negative inputs
 
 Assignment description goes here.

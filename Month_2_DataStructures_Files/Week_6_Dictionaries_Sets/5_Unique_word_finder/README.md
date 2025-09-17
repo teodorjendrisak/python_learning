@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Unique word finder
 
 Assignment description goes here.

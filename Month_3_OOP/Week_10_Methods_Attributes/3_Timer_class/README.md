@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Timer class
 
 Assignment description goes here.

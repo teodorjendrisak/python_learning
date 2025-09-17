@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Car class
 
 Assignment description goes here.

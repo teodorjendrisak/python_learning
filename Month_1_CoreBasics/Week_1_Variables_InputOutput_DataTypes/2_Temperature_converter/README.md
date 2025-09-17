@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Temperature converter
 
 Assignment description goes here.

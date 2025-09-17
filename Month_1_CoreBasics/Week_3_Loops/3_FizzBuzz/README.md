@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 FizzBuzz
 
 Assignment description goes here.

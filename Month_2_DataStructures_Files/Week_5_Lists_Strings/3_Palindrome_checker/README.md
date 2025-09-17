@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Palindrome checker
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Countdown timer
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Adder function generator
 
 Assignment description goes here.

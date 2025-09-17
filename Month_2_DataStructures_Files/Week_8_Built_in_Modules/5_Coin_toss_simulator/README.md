@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Coin toss simulator
 
 Assignment description goes here.

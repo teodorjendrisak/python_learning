@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Employee subclasses
 
 Assignment description goes here.

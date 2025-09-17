@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Fetch Pokemon data
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 BMI calculator
 
 Assignment description goes here.

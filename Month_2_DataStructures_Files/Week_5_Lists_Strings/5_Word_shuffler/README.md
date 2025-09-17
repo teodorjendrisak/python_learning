@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Word shuffler
 
 Assignment description goes here.

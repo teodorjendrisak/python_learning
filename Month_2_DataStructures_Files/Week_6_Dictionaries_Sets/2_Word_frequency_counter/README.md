@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Word frequency counter
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Test string functions
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 LightSwitch
 
 Assignment description goes here.

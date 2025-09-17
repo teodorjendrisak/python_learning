@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Shopping list app
 
 Assignment description goes here.

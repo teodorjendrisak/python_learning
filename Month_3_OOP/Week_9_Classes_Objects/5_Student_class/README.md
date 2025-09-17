@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Student class
 
 Assignment description goes here.

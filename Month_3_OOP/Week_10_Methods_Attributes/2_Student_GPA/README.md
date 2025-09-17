@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Student GPA
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 File renamer
 
 Assignment description goes here.

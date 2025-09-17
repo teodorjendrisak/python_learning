@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Math utils
 
 Assignment description goes here.

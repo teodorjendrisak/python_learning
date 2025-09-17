@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Team with Players
 
 Assignment description goes here.

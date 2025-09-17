@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Diary app
 
 Assignment description goes here.

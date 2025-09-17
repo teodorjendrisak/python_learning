@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Math quiz
 
 Assignment description goes here.

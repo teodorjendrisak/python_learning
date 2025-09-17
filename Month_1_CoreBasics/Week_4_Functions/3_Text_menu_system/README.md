@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Text menu system
 
 Assignment description goes here.

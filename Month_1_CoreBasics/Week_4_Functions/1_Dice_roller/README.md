@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Dice roller
 
 Assignment description goes here.

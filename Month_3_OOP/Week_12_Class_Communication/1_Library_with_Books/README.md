@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Library with Books
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Append text to file
 
 Assignment description goes here.

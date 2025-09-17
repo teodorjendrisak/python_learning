@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Fibonacci generator
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Test BankAccount class
 
 Assignment description goes here.

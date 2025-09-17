@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Number guessing game
 
 Assignment description goes here.

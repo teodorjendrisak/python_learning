@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Rectangle class
 
 Assignment description goes here.

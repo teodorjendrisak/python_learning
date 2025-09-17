@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Translate dictionary
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Run project in venv
 
 Assignment description goes here.

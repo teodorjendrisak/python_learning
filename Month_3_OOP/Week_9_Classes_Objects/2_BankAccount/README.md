@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 BankAccount
 
 Assignment description goes here.

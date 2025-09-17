@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Inventory system
 
 Assignment description goes here.

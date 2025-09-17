@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 ShoppingCart with Products
 
 Assignment description goes here.

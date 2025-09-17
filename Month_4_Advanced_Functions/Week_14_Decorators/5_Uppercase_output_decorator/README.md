@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Uppercase output decorator
 
 Assignment description goes here.

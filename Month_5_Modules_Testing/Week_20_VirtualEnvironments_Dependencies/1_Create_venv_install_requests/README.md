@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Create venv install requests
 
 Assignment description goes here.

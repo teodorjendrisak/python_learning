@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Retry logic decorator
 
 Assignment description goes here.

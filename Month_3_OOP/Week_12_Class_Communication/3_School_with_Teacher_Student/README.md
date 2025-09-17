@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 School with Teacher Student
 
 Assignment description goes here.

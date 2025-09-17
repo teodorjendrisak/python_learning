@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Age in days calculator
 
 Assignment description goes here.

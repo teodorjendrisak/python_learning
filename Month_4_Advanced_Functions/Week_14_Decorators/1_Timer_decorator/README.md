@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Timer decorator
 
 Assignment description goes here.

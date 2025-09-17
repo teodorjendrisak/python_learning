@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Split project files
 
 Assignment description goes here.

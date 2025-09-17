@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Dog class
 
 Assignment description goes here.

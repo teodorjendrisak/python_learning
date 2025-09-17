@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Tip calculator
 
 Assignment description goes here.

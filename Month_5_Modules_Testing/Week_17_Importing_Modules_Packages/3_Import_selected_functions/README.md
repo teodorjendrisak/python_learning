@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 3 Import selected functions
 
 Assignment description goes here.

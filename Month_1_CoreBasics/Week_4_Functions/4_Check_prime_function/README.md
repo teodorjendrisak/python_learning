@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 4 Check prime function
 
 Assignment description goes here.

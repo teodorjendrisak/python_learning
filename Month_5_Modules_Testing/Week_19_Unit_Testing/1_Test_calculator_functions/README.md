@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Test calculator functions
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 5 Package with init
 
 Assignment description goes here.

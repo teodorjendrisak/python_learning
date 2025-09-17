@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Counter function
 
 Assignment description goes here.

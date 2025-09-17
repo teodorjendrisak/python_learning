@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 1 Random name picker
 
 Assignment description goes here.

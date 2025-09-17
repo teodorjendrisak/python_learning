@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Infinite number generator
 
 Assignment description goes here.

@@ -1,3 +1,3 @@
-# 1 Phonebook app
+# 2 Animal subclasses
 
 Assignment description goes here.
