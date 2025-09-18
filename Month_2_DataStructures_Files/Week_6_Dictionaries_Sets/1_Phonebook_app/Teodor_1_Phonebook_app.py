@@ -1,4 +1,6 @@
 # 1_Phonebook_app - Teodor
+
+
 def load_phonebook():
     phonebook = {}
     with open("Teodor_phonebook.txt", "r") as file:
@@ -7,30 +9,11 @@ def load_phonebook():
             phonebook[name] = number
     return phonebook
 
+
 def save_phonebook(phonebook):
     with open("Teodor_phonebook.txt", "w") as file:
         for name, number in phonebook.items():
             file.write(f"{name}:{number}\n")
-
-
-def main():
-    phonebook = load_phonebook()
-
-    while True:
-        menu_choice = menu_selection()
-        if menu_choice == 1:
-            add_contact(phonebook)
-        elif menu_choice == 2:
-            lookup_contact(phonebook)
-        elif menu_choice == 3:
-            update_contact("", phonebook)
-        elif menu_choice == 4:
-            delete_contact(phonebook)
-        elif menu_choice == 5:
-            list_contacts(phonebook)
-        elif menu_choice == 6:
-            save_phonebook(phonebook)
-            return
 
 
 def menu_selection():
@@ -52,8 +35,8 @@ def menu_selection():
         except ValueError:
             print("Please enter valid number")
 
+
 def add_contact(phonebook):
-    
     name = input("Full name: ")
 
     #Check if the name exists
@@ -78,6 +61,7 @@ def add_contact(phonebook):
         else:
             print("Only digits accepted for phone numbers")
 
+
 def lookup_contact(phonebook):
     name = input("Full name of the contact to look up: ")
 
@@ -89,6 +73,7 @@ def lookup_contact(phonebook):
     input("Press ENTER to return to main menu ")
     print("-" * 30)
     return
+
 
 def update_contact(name, phonebook):
     if name == "":
@@ -111,6 +96,7 @@ def update_contact(name, phonebook):
         print("-" * 30)
         return
 
+
 def delete_contact(phonebook):
     name = input("Full name of the contact to delete: ")
     if name in phonebook:
@@ -123,6 +109,7 @@ def delete_contact(phonebook):
     print("-" * 30)
     return
 
+
 def list_contacts(phonebook):
     phonebook_sorted = sorted(phonebook.items())
     print("-" * 30)
@@ -131,7 +118,26 @@ def list_contacts(phonebook):
     print("-" * 30)
     input("Press ENTER to return to the main menu ")
 
+
+def main():
+    phonebook = load_phonebook()
+
+    while True:
+        menu_choice = menu_selection()
+        if menu_choice == 1:
+            add_contact(phonebook)
+        elif menu_choice == 2:
+            lookup_contact(phonebook)
+        elif menu_choice == 3:
+            update_contact("", phonebook)
+        elif menu_choice == 4:
+            delete_contact(phonebook)
+        elif menu_choice == 5:
+            list_contacts(phonebook)
+        elif menu_choice == 6:
+            save_phonebook(phonebook)
+            return
+
+
 if __name__ == "__main__":
     main()
-
-
