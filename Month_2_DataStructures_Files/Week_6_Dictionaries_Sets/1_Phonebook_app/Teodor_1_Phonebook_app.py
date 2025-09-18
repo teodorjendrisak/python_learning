@@ -93,7 +93,7 @@ def update_contact(name, phonebook):
     else:
         print("Name not found in the phone book")
         input("Press ENTER to return to the main menu ")
-        print("-" * 30)
+        
         return
 
 
