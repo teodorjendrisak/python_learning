@@ -1,2 +1,4 @@
-apples: 4
-bananas: 3
+peaches: 5
+kiwis: 1002
+apples: 23
+bananas: 4

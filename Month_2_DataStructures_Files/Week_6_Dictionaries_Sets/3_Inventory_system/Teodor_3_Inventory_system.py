@@ -1,17 +1,23 @@
 # 3_Inventory_system - Teodor
 def load_inventory():
     inventory = {}
-    with open("Teodor_inventory.txt", "r") as file:
-        for line in file:
-            item, quantity = line.strip().split(":")
-            inventory[item] = int(quantity)
+    try:
+        with open("Teodor_inventory.txt", "r") as file:
+            for line in file:
+                try:
+                    item, quantity = line.strip().split(":")
+                    inventory[item] = int(quantity)
+                except ValueError:
+                    continue
+    except FileNotFoundError:
+        pass     
     return inventory
 
 
 def save_inventory(inventory):
     with open("Teodor_inventory.txt", "w") as file:
-        for item, quantity in inventory:
-            file.write(f"{item}: {quantity}\n")
+        for item in inventory:
+            file.write(f"{item}: {inventory[item]}\n")
 
 
 def menu_selection():
@@ -51,7 +57,7 @@ def add_item(inventory):
     while True:
         quantity = input("Quantity: ")
         if quantity.isdigit():
-            inventory[item] = quantity
+            inventory[item] = int(quantity)
             input("Item added. Press ENTER to return to the main menu ")
             print("-" * 30)
             return
@@ -61,15 +67,14 @@ def add_item(inventory):
 
 def update_item(item, inventory):
     if item == "":
-        item = input("Item to update: ")
+        item = input("Item to update: ").strip()
 
 
     if item in inventory:
         while True:
             quantity_update =input("Quantity to add: ")
             if quantity_update.isdigit() and int(quantity_update) > 0:
-                inventory[item] += int(quantity_update) #These are strings - FIX
-                print(inventory)
+                inventory[item] += int(quantity_update)
                 input("Quantity updated. Press ENTER to return to the main menu")
                 print("-" * 30)
                 return
@@ -115,6 +120,26 @@ def remove_item(inventory):
     input("Press ENTER to return to the main menu ")
     print("-" * 30)
 
+
+def search_item(inventory):
+    search = input("Search item: ").strip().lower()
+    for item in inventory:
+        if item.lower() == search:
+            print(f"{item}: {inventory[item]}")
+            input("Press ENTER to return to the main menu ")
+            return
+    print("Item not found in the inventory")
+    input("Press ENTER to return to the main menu ")
+
+
+def view_inventory(inventory):
+
+    for item in sorted(inventory.keys()):
+        print(f"{item}: {inventory[item]}")
+    input("Press ENTER to return to the main menu ")
+    return
+
+
 def main():
     inventory = load_inventory()
 
@@ -127,14 +152,15 @@ def main():
         elif menu_choice == 3:
             remove_item(inventory)
         elif menu_choice == 4:
-            search_tem(inventory)
+            search_item(inventory)
         elif menu_choice == 5:
             view_inventory(inventory)
         elif menu_choice == 6:
             save_inventory(inventory)
-            return
+            break
 
 
 
 if __name__ == "__main__":
     main()
+    
